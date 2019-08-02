@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list-wrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+
+li {
+  list-style: none;
+}
+
+.ing .todo-item {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-bottom: 1px solid #409eff;
+  display: flex;
+}
+
+.ed .todo-item {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-bottom: 1px solid #67c23a;
+}
+
+.btn {
+  border-radius: 4px;
+  background: yellowgreen;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.input-text {
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.add-item {
+  border-bottom: 2px dashed darkcyan;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.ing-wrapper, .ed-wrapper {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.item-content {
+  margin-left: 10px;
+  flex: 1;
+}
